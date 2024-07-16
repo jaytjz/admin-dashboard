@@ -6,3 +6,18 @@
 .sidebar{
     grid-row: 1/3;
 }
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.main-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.projects{
+    grid-row: 1/-1;
+}
