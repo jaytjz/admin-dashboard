@@ -57,7 +57,7 @@ input{
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 1fr 6fr;
     grid-template-rows: 2fr 5fr;
     height: 100vh;
 }
