@@ -150,6 +150,11 @@ input{
     margin-top: 50px;
 }
 
+.card-container .card{
+    border-left: 10px solid red;
+    box-sizing: border-box;
+}
+
 .projects .card p{
     color: var(--card-p-color);
 }
