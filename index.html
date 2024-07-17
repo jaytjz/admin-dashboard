@@ -9,25 +9,33 @@
 <body>
     <div class="container">
         <div class="sidebar">
-            <h1>Dashboard</h1>
-            <ul>
-                <li>Home</li>
-                <li>Profile</li>
-                <li>Messages</li>
-                <li>History</li>
-                <li>Tasks</li>
-                <li>Communities</li>
-            </ul>
-            <ul>
-                <li>Settings</li>
-                <li>Support</li>
-                <li>Privacy</li>
-            </ul>
+            <h1><img src="icons/chart-tree.svg" alt=""><div>Dashboard</div></h1>
+            <br>
+            <a href="#"><img src="icons/home.svg" alt="home"><div>Home</div></a>
+            <a href="#"><img src="icons/card-account-details-outline.svg" alt=""><div>Profile</div></a>
+            <a href="#"><img src="icons/message-reply.svg" alt=""><div>Messages</div></a>
+            <a href="#"><img src="icons/clock-time-two.svg" alt=""><div>History</div></a>
+            <a href="#"><img src="icons/file-multiple.svg" alt=""><div>Tasks</div></a>
+            <a href="#"><img src="icons/account-group.svg" alt=""><div>Communities</div></a>
+            <br>
+            <a href="#"><img src="icons/cog.svg" alt="">Settings</a>
+            <a href="#"><img src="icons/help-box.svg" alt="">Support</a>
+            <a href="#"><img src="icons/shield-check.svg" alt="">Privacy</a>
         </div>
         <div class="header">
-            <div>search</div>
-            <div>notifications</div>
-            <div>Hi, there <br>Morgan Oakley(@morgan)</div>
+            <form id="search-form">
+                <img src="icons/magnify.svg" alt="">
+                <input type="text">
+            </form>
+            <div class="notifications">
+                <img src="icons/bell-ring-outline.svg" alt="">
+                <img src="icons/account-circle-outline.svg" alt="">
+                Morgan Oakley
+            </div>
+            <div class="greeting">
+                <img src="icons/account-circle-outline.svg" alt="">
+                <div><p>Hi there,</p> <h2>Morgan Oakley(@morgan)</h2></div>
+            </div>
             <div>
                 <button>New</button>
                 <button>Upload</button>
@@ -37,29 +45,61 @@
         <div class="main-content">
             <div class="projects">
                 <h2>Your Projects</h2>
-                <div class="card">
-                    <h3>Super Cool Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dignissimos ut exercitationem? Reprehenderit distinctio esse et dolore aliquid maxime adipisci excepturi, beatae illum placeat, ratione rerum earum aut voluptatem doloribus.</p>
-                </div>
-                <div class="card">
-                    <h3>Less Cool Project</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
-                </div>
-                <div class="card">
-                    <h3>Impossible App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
-                </div>
-                <div class="card">
-                    <h3>Easy Peasy App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
-                </div>
-                <div class="card">
-                    <h3>Ad Blocker</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
-                </div>
-                <div class="card">
-                    <h3>Money Maker</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
+                <div class="card-container">
+                    <div class="card">
+                        <h3>Super Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In dignissimos ut exercitationem? Reprehenderit distinctio esse et dolore aliquid maxime adipisci excepturi, beatae illum placeat, ratione rerum earum aut voluptatem doloribus.</p>
+                        <div>
+                            <img src="icons/heart-svgrepo-com.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/share-variant-outline.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Less Cool Project</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
+                        <div>
+                            <img src="icons/heart-svgrepo-com.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/share-variant-outline.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Impossible App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
+                        <div>
+                            <img src="icons/heart-svgrepo-com.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/share-variant-outline.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Easy Peasy App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
+                        <div>
+                            <img src="icons/heart-svgrepo-com.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/share-variant-outline.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Ad Blocker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
+                        <div>
+                            <img src="icons/heart-svgrepo-com.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/share-variant-outline.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Money Maker</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, recusandae tenetur porro eius minima vitae nobis quia maxime dolorum enim magnam cumque quidem. Quos corporis nemo necessitatibus dignissimos id iure?</p>
+                        <div>
+                            <img src="icons/heart-svgrepo-com.svg" alt="">
+                            <img src="icons/eye-plus-outline.svg" alt="">
+                            <img src="icons/share-variant-outline.svg" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="announcements">
@@ -70,10 +110,12 @@
                             <h3>Site Maintenance</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, minus velit? Deserunt maiores explicabo fugiat voluptate debitis accusantium veniam expedita obcaecati, cumque necessitatibus suscipit aspernatur, non beatae eligendi odit quia?</p>
                         </li>
+                        <hr class="line">
                         <li>
                             <h3>Community Share Day</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, minus velit? Deserunt maiores explicabo fugiat voluptate debitis accusantium veniam expedita obcaecati, cumque necessitatibus suscipit aspernatur, non beatae eligendi odit quia?</p>
                         </li>
+                        <hr class="line">
                         <li>
                             <h3>Updated Privacy Policy</h3>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, minus velit? Deserunt maiores explicabo fugiat voluptate debitis accusantium veniam expedita obcaecati, cumque necessitatibus suscipit aspernatur, non beatae eligendi odit quia?</p>
@@ -85,10 +127,34 @@
                 <h2>Trending</h2>
                 <div class="card">
                     <ul>
-                        <li>@tegab</li>
-                        <li>@morgan</li>
-                        <li>@kendall</li>
-                        <li>@alex</li>
+                        <li>
+                            <img src="icons/account-circle-outline.svg" alt="">
+                            <div>
+                                <h3>@tegab</h3>
+                                <p>World Peace Builder</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="icons/account-circle-outline.svg" alt="">
+                            <div>
+                                <h3>@morgan</h3>
+                                <p>Super Cool Project</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="icons/account-circle-outline.svg" alt="">
+                            <div>
+                                <h3>@kendall</h3>
+                                <p>Life Changing App</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="icons/account-circle-outline.svg" alt="">
+                            <div>
+                                <h3>@alex</h3>
+                                <p>No Traffic Maker</p>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
